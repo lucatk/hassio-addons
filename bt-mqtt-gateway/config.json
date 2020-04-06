@@ -1,0 +1,15 @@
+{
+  "name": "bt-mqtt-gateway",
+  "version": "4",
+  "slug": "bt_mqtt_gateway",
+  "image": "lucatk/hassio-bt-mqtt-gateway-{arch}",
+  "description": "Hassio addon for bt-mqtt-gateway",
+  "arch": ["amd64","aarch64","armhf", "armv7"],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "map": ["config:rw"],
+  "auto_uart": true,
+  "host_network": true
+}
